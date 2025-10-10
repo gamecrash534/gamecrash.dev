@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Personal homelab portal for accessing development services">
+        <title>{ gamecrash.dev }</title>
+        <link rel="stylesheet" href="/assets/css/styles.css">
+        <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <nav class="nav">
+                <div class="nav-container">
+                    <div class="nav-brand">
+                        <a href="/" class="brand-link">{ gamecrash.dev }</a>
+                    </div>
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a href="/" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/services/" class="nav-link">Hosted Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://github.com/gamecrash534" target="_blank" class="nav-link">GitHub</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="theme-toggle" id="theme-toggle">
+                                <i class="fas fa-moon"></i>
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="hamburger" id="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-container">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            Welcome to <span class="highlight">gamecrash.dev</span>!
+                        </h1>
+                        <p class="hero-description">
+                            This is the main page for my hosted stuff.
+                            In the near future the will also be a complete page to show all the hosted services and resources.
+                        </p>
+                        <div class="hero-actions">
+                            <a href="https://gamecrash.xyz" class="btn btn-primary">My personal website</a>
+                            <a href="/services/" class="btn btn-secondary">View list of hosted services</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <p>&copy; 2025 gamecrash.dev</p>
+                    <div class="footer-links">
+                        <a href="https://github.com/gamecrash534" target="_blank" rel="noopener">
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="/scripts/darkmode.js"></script>
+        <script src="/scripts/navigation.js"></script>
+        <script src="/scripts/script.js"></script>
+    </body>
+</html>
