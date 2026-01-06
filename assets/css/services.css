@@ -176,6 +176,12 @@
     font-size: 14px;
 }
 
+.service-description a {
+    color: var(--accent-primary);
+    font-weight: bold;
+    text-decoration: none;
+}
+
 .service-link {
     color: var(--accent-primary);
     text-decoration: none;
