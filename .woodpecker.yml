@@ -6,8 +6,8 @@ steps:
   - name: deploy
     image: alpine
     commands:
-      - mkdir -p /sites/${CI_REPO_NAME}
-      - rm -rf /sites/${CI_REPO_NAME}/*
-      - cp -r ./* /sites/${CI_REPO_NAME}/
+      - mkdir -p /root
+      - rm -rf /root/*
+      - cp -r ./* /root/
     volumes:
-      - /srv/static-sites/sites:/sites
+      - /srv/static-sites/:/
