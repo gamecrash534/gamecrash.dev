@@ -1,0 +1,13 @@
+when:
+  branch: main
+  event: push
+
+steps:
+  - name: deploy
+    image: alpine
+    commands:
+      - mkdir -p /sites/${CI_REPO_NAME}
+      - rm -rf /sites/${CI_REPO_NAME}/*
+      - cp -r ./* /sites/${CI_REPO_NAME}/
+    volumes:
+      - /srv/static-sites/sites:/sites
