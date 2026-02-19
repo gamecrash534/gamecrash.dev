@@ -82,8 +82,8 @@
 .fa-java {
   --fa: "\f4e4";
 }
-.fa-git-alt {
-  --fa: "\f841";
+.fa-forgejo {
+  --fa: "\e860";
 }
 .fa-file {
 	--fa: "\f15b";
@@ -93,4 +93,7 @@
 }
 .fa-up-right-from-square {
     --fa: "\f35d";
+}
+.fa-robot {
+    --fa: "\f544";
 }

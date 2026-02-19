@@ -69,7 +69,7 @@ h3 { font-size: 20px; }
 }
 
 .hero-actions {
-    display: flex;
+    display: flex;a 
     gap: 16px;
     justify-content: center;
     flex-wrap: wrap;
@@ -107,4 +107,8 @@ h3 { font-size: 20px; }
 
 .btn-secondary:hover {
     background: var(--hover-bg);
+}
+
+a {
+    color: var(--accent-primary);
 }
