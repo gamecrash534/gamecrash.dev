@@ -6,8 +6,8 @@ steps:
   - name: deploy
     image: alpine
     commands:
-      - mkdir -p /sites/root
-      - rm -rf /sites/root/*
-      - cp -r ./* /sites/root/
+      - mkdir -p /sites/public
+      - rm -rf /sites/public/*
+      - cp -r ./* /sites/public/
     volumes:
       - /srv/sites/:/sites
