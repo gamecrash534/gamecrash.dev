@@ -10,4 +10,4 @@ steps:
       - rm -rf /sites/root/*
       - cp -r ./* /sites/root/
     volumes:
-      - /srv/static-sites/:/sites
+      - /srv/sites/:/sites
