@@ -5,6 +5,7 @@
     top: 0;
     z-index: 100;
     backdrop-filter: blur(10px);
+    font-family: var(--font-mono);
 }
 
 .nav-container {
@@ -18,7 +19,6 @@
 }
 
 .brand-link {
-    font-family: var(--font-mono);
     font-size: 20px;
     font-weight: 600;
     color: var(--text-primary);
@@ -26,7 +26,6 @@
 }
 
 .brand-link-extratext {
-    font-family: var(--font-mono);
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
